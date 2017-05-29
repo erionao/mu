@@ -1,0 +1,149 @@
+
+.group_inputs {
+  color: white;
+}
+.input_size {
+  margin-top: 20px;
+}
+.input_size_textarea {
+  margin-top: 50px;
+}
+.input_style {
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:100%;
+  border:none;
+  border-bottom:2px solid rgba(255, 255, 255, 0.59);
+  background-color: transparent;
+}
+.input_style:focus     { outline:none; }
+
+/* .label_string ======================================= */
+.label_string          {
+  color:white; 
+  font-size:16px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:15px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+.input_style:focus ~ .label_string, .input_style:valid ~ .label_string    {
+  top:-10px;
+  font-size:12px;
+  color:#F7941D;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* BOTTOM BARS ================================= */
+.bar  { position:relative; display:block; width:100%; }
+.bar:before, .bar:after   {
+  content:'';
+  height:3px; 
+  width:0;
+  bottom:0px; 
+  position:absolute;
+  background:#F7941D; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+.input_style:focus ~ .bar:before, .input_style:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%; 
+  width:100%; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+.input_style:focus ~ .highlight {
+  -webkit-animation:.input_styleHighlighter 0.3s ease;
+  -moz-animation:.input_styleHighlighter 0.3s ease;
+  animation:.input_styleHighlighter 0.3s ease;
+}
+
+
+.textarea {
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.textarea .label_string {
+  padding-top: 20px;
+}
+
+.textarea .input_style:focus ~ .label_string, .textarea .input_style:valid ~ .label_string    {
+  top:-50px;
+  font-size:12px;
+  color:#F7941D;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* ANIMATIONS ================ */
+
+@-webkit-keyframes .input_styleHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@-moz-keyframes .input_styleHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@keyframes .input_styleHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+
+
+
+
+
+/*Contact Section on every page*/
+
+
+.contact_forms_section {
+  background-image: url('../img/background/backg_6-01.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 7% 10px;
+  background-position: 0px 0px;
+}
+
+.contact_forms_section h2 {
+  font-family: 'Montserrat-Light';
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+
+.contact_forms_section p {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}

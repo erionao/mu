@@ -1,0 +1,101 @@
+/*=======================*/
+/*==  	-EMIRATES-     ==*/
+/*==    GRAPHIC.COM    ==*/
+/*=======================*/
+
+
+/*--------------------*/
+/*		  Fonts       */
+/*--------------------*/
+
+
+@font-face {
+  font-family: 'Montserrat-light';
+  src: url('../../fonts/Montserrat-Light.otf');
+ }
+
+
+
+/*--------------------*/
+/*		  Rules       */
+/*--------------------*/
+body {
+	font-family: 'Montserrat-Light';
+}
+
+input:focus {
+	outline: none !important;
+}
+input:active {
+	outline: none !important;
+}
+textarea:focus {
+	outline: none !important;
+}
+textarea:active {
+	outline: none !important;
+}
+
+/*--------------------*/
+/*		  Main        */
+/*--------------------*/
+
+.blog-wrapper {
+	padding: 40px 30px !important;
+	font-family: 'Montserrat-light';
+}
+.blog_page_content p {
+	color: #b3b3b3;
+}
+ .blog_page_content input {
+ 	width: 100%;
+ 	padding: 10px;
+ 	margin-top: 20px;
+ 	border-radius: 4px;
+ 	border: solid 1px #b3b3b3;
+ }
+ .blog_page_content textarea {
+ 	width: 100%;
+ 	padding: 10px;
+ 	margin-top: 20px;
+ 	resize: vertical;
+ 	border-radius: 4px;
+ 	border: solid 1px #b3b3b3;
+ }
+
+
+/*
+** Add image on Blog Page
+*/
+.blog_input_btn {
+	padding: 20px 15px;
+}
+ .blog_input_btn label{
+ 	color: white;
+ 	background-color: #b3b3b3;
+ 	transition: ease-in-out all 0.2s;
+ }
+
+
+ /***********Add Content*********/
+
+ .save_content_btn button {
+ 	height: 30px;
+ 	background-color: #20af38;
+ 	color: white;
+ 	border: none;
+ 	width: 120px;
+ 	transition: ease-in-out all 0.2s;
+ }
+ .save_content_btn button:hover {
+ 	height: 30px;
+ 	background-color: #188a2b;
+ 	color: white;
+ 	border: none;
+ 	width: 120px;
+ 	transition: ease-in-out all 0.2s;
+ 	color: white;
+ }
+ .save_content_btn button:active {
+ 	background-color: #188a2b;
+}

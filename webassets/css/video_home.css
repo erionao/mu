@@ -1,0 +1,22 @@
+/* search section styles -- bacground video */
+#video-landing {
+	height: 100vh;
+  position: relative;
+  overflow-x: hidden !important;
+  color: white;
+	margin:0 auto;
+	text-align:center;
+  background: rgba(0, 0, 0, 0.58);
+}
+
+#video-landing video {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -100;
+}
+
+ 

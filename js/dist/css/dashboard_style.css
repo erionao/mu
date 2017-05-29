@@ -1,0 +1,42 @@
+/*=======================*/
+/*==  	-EMIRATES-     ==*/
+/*==    GRAPHIC.COM    ==*/
+/*=======================*/
+
+
+/*--------------------*/
+/*		  Fonts       */
+/*--------------------*/
+
+
+@font-face {
+  font-family: 'Montserrat-light';
+  src: url('../../fonts/Montserrat-Light.otf');
+ }
+
+
+
+
+/*--------------------*/
+/*		  Main        */
+/*--------------------*/
+
+
+.dashboard_wrapper {
+	padding-top: 40px !important;
+}
+
+.card_galery img {
+	width: 100%;
+	border-radius: 50px;
+	border:solid 1px transparent;
+}
+
+.card_galery p {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.small_gallery_panel {
+	margin: 5px 0px;
+}

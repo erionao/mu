@@ -1,0 +1,85 @@
+.apply_cover_section {
+	background-image: url('../img/background/backg_9-01.png');
+	padding: 16% 10px 10%; 
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.apply_section_one_p {
+	padding: 6% 10px;
+}
+.upload_image_section {
+	text-align: center;
+}
+.apply_section_one_p h1 {
+	font-size: 25px;
+	font-family: 'Montserrat-Bold';
+	color: #5D6A84;
+	padding-left: 15px;
+}
+.apply_section_one_p input {
+	width: 100%; 
+	margin-top: 10px;
+	margin-bottom: 15px;
+	height: 35px;
+	padding: 10px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: solid 2px #E6E6E6;
+	transition: ease all 0.2s;
+}
+
+.apply_section_one_p input:active {
+	border-bottom: solid 2px #F7941D;
+	transition: ease all 0.2s;
+}
+
+.apply_section_one_p input:focus {
+	border-bottom: solid 2px #F7941D;
+	transition: ease all 0.2s;
+}
+.form_date input {
+	width: 100%; 
+	margin: 0px;
+	outline: none !important;
+	background-color: white !important;
+	border: solid 1px #E6E6E6;
+	padding: 10px;
+}
+.date_picker {
+	height: 35px;
+	margin-bottom: 0px !important;
+}
+.form_date input:active {
+	outline: none !important;
+}
+.form_date input:focus {
+	outline: none !important;
+}
+.form-control:focus {
+    border-color: none;
+    outline: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+select:visited {
+	outline: none !important;
+}
+select:active {
+	outline: none !important;
+}
+select:focus {
+	outline: none !important;
+}
+
+.apply_section_one_p select {
+	outline: none !important;
+	margin-top: 25px;
+	height: 40px;
+	border: solid 1px #E6E6E6;
+	width: 100%;
+}
+

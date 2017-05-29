@@ -1,0 +1,49 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.otf');
+ }
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('../fonts/Montserrat-UltraLight.otf');
+ }
+
+body {
+  font-family: 'Montserrat-UltraLight' !important;
+}
+
+button:active {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+input:active {
+  outline: none !important;
+}
+input:focus {
+  outline: none !important;
+}
+.no_padding {
+  padding: 0px !important;
+}
+
+.small_padding-lr {
+  padding: 0px 5px !important;
+}

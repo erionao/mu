@@ -1,0 +1,147 @@
+/*=======================*/
+/*==  	-EMIRATES-     ==*/
+/*==    GRAPHIC.COM    ==*/
+/*=======================*/
+
+
+/*--------------------*/
+/*		  Fonts       */
+/*--------------------*/
+
+
+@font-face {
+  font-family: 'Montserrat-light';
+  src: url('../../fonts/Montserrat-Light.otf');
+ }
+
+.no-padding {
+    padding: 0px;
+}
+.small-padding {
+    padding: 0px 3px;
+}
+button:active {
+    outline: none !important;
+}
+button:focus {
+    outline: none !important;
+}
+/*--------------------*/
+/*		  MENU        */
+/*--------------------*/
+
+body {
+	background-color: #363846;
+	font-family: 'Montserrat-light';
+}
+
+@media (min-width: 768px){
+  		.sidebar {
+  			margin-top: 75px;
+	}
+}
+
+
+.navbar-default {
+    background-color: #292a35;
+    border-color: #e7e7e7;
+}
+.navbar-default a{
+	color: white;
+}
+.navbar-default .navbar-brand {
+	float: left;
+    height: 50px;
+    padding: 29px 77px 46px;
+    font-size: 18px;
+    line-height: 20px;
+    background: red;
+    color: white;
+}
+.navbar-default .navbar-brand:hover {
+    background-color: red;
+    color: white;
+}
+.navigation-logo-brand img {
+    width: 100px;
+    margin: 8px 32px;
+}
+
+.sidebar ul li a.active {
+	background-color: red;
+	border: solid 0px transparent;
+}
+
+.sidebar ul li {
+	border: solid 0px red;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: red;
+}
+
+/*
+** top Navigationbar Buttons  
+*/
+
+
+.choose_page-p {
+	color: white;
+	padding: 0px 30px;
+}
+
+.navbar-top-buttons {
+	padding: 20px 
+}
+
+.navbar-top-buttons button {
+	width: 150px;
+
+}
+
+.dropdown-menu a {
+    color: black;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+     min-width: 100px;   
+    padding: 2px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.navbar-top-links li a {
+    padding: 10px 25px;
+}
+/*Only on Desktop*/
+
+@media only screen and (min-width: 844px) {
+    .socialmedia-footer0 {
+        display: none;
+    }
+    .contact-section-email {
+        padding: 0px 150px;
+    }
+}
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .cover-text {
+    text-align: center;
+    }
+}

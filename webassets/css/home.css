@@ -1,0 +1,291 @@
+.home_cover_section {
+	/*background-image: url('../img/background/backg_1-01.png');*/
+	/*padding: 16% 10px 10%; */
+	/*height: 100vh;*/
+	top: 32%;
+	margin: 0 auto !important;
+	position: absolute;
+	width: 100%;
+}
+
+.main_covers_text {
+	text-align: center;
+	color: #fff;
+}
+ 
+.main_covers_text h1 {
+	font-size: 85px;
+	font-family: 'Montserrat-Bold';
+}
+.main_covers_text p {
+	font-size: 26px;
+}
+
+/*Second Section Homepage*/
+.our_staffing_solutions {
+	padding: 6% 10px 4%;
+	text-align: center;
+	background-image: url('../img/background/backg_2-01.png');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+.our_staffing_solutions h2 {
+	font-size: 38px;
+	font-family: 'Montserrat-Bold';
+}
+.our_staffing_solutions p {
+	font-size: 16px;
+}
+.solutions_two_sec_h {
+	text-align: center;
+	padding: 5% 20px 0%;
+}
+.solutions_two_sec_h:hover svg .cls-1{
+	fill: #F7941D;
+	transition: ease all 0.2s;
+}
+
+.solutions_two_sec_h svg {
+	width: 60%;
+	transition: ease all 0.2s;
+}
+
+.solutions_two_sec_h h3 {
+	font-family: 'Montserrat-Bold';
+	transition: ease all 0.2s;
+}
+
+.solutions_two_sec_h:hover h3 {
+	color: #F7941D;
+	transition: ease all 0.2s;
+}
+
+
+/* choose and Go Section on homepage*/
+.third_home_title {
+	text-align: center;
+	font-family: 'Montserrat-Bold';
+	color: #272262;
+}
+.choose_and_go_section hr {
+	width: 10%;
+	background-color: red;
+}
+.choose_and_go_section {
+	padding: 5% 10px;
+}
+
+.model_slider_home h1 {
+	font-family: 'Montserrat-Bold';
+	color: #5D6A84;
+}
+.model_section_s {
+	outline: none !important;
+}
+.model_slider_home h5 {
+	font-size: 22px;
+	color: #5D6A84;
+	font-family: 'Montserrat-Light';
+}
+
+.model_slider_home p {
+	color: #5D6A84;
+	font-size: 16px;
+	padding-top: 5%;
+}
+
+.model_slider_home h4 {
+	font-family: 'Montserrat-Bold';
+	margin-bottom: 2%;
+	color: #5D6A84;
+}
+
+.model_slider_home h3 {
+	font-family: 'Montserrat-Bold';
+	margin-top: 5px;
+	color: #A7A9AC;
+	font-size: 14px;
+
+}
+
+.large_images_choose_ho {
+	margin-top: 2%;
+}
+
+
+.habilidades {
+	margin-bottom: 20px;
+}
+
+.codeconSkillbar {
+	width: 100%;
+	height: 15px;
+	position: relative;
+	background: #ccc;
+}
+
+
+.skillBar {
+	width: 5%;
+	height: 15px;
+	position: absolute;
+	background-color: transparent;
+	transition: 3s;
+	-webkit-transform: translateZ(0);
+   -moz-transform: translateZ(0);
+   -ms-transform: translateZ(0);
+   -o-transform: translateZ(0);
+   transform: translateZ(0);
+} 
+
+.PercentText {
+	z-index: 3;
+	position: relative;
+	padding-right: 15px;
+	margin-top: 0px;
+	float: right;
+	text-shadow: none;
+	color: #fff;
+	font-size: 12px;
+}
+
+.button_choose_home {
+	text-align: right;
+}
+
+.button_choose_home button {
+	width: 100%;
+	border: transparent solid 2px;
+	color: white;
+	background-color: #F7941D;
+	height: 40px;
+	border-radius: 6px;
+	font-family: 'Montserrat-Bold';
+	margin: 20px 0px;
+}
+
+.choose_and_go_section .slick-prev:before, .slick-next:before {
+	font-family: 'slick';
+    font-size: 40px !important;
+    line-height: 1;
+    opacity: .55;
+    margin-left: -11px !important;
+    color: #ccc !important;
+    -webkit-font-smoothing: antialiased;
+	
+}
+
+
+
+/*Benefits Section Homepage*/
+
+.benefits_section_homepage {
+	padding: 6% 10px 4%;
+	background-image: url('../img/background/backg_3-01.png');
+	background-position: center;
+	background-size: cover;
+	color: white;	
+}
+
+.benefits_section_homepage h1 {
+	font-family: 'Montserrat-Light';
+	font-size: 38px;
+}
+
+.benefits_section_homepage p {
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.benefits_section_homepage h4 {
+	font-family: 'Montserrat-Light';
+	font-size: 19px;
+	padding-top: 15px;
+}
+
+.benefits_section_homepage i {
+	color: #F7941D;
+}
+
+/*Add Staff Section*/
+
+.add_staff_home_section {
+	background-image: url(../img/background/backg_4-01.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 6% 10px;
+	color: #5D6A84;
+}
+
+.add_staff_home_section .col-md-6:hover h2 {
+	color: #F7941D;
+	transition: ease all 0.2s;
+}
+.add_staff_home_section img {
+	width: 40%;
+}
+
+.add_staff_home_section h2 {
+	font-family: 'Montserrat-Bold';
+	transition: ease all 0.2s;
+}
+.add_staff_home_section p {
+	padding: 10px 90px; 
+	font-size: 17px;
+	line-height: 28px;
+}
+
+
+/*Testimonial section*/
+
+.testimonial_section_home {
+	background-image: url(../img/background/backg_5-01.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 6% 10px;
+	color: white;
+}
+
+.testimonial_section_home img {
+	width: 35%;
+	margin: 0 auto;
+}
+
+.testimonial_section_home h1 {
+	font-family: 'Montserrat-Bold';
+	margin-bottom: 30px;
+}
+.testimonial_section_home h4 {
+	font-family: 'Montserrat-Bold';
+	margin-bottom: 0px;
+}
+.testimonial_section_home h5 {
+	margin-top: 0px;
+}
+.small_testimonial_pan {	
+	margin-top: 30px;
+	outline: none !important;
+}
+.testimonial_slick p {
+	padding: 10px 40px;
+	font-size: 16px;
+}
+
+/*Contact Page*/
+
+.map_section_contact {
+	padding-top: 7.5%;
+	background-color: #676464;
+}
+#map {
+	height: 100vh;
+	width: 100%;
+}

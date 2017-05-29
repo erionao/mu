@@ -1,0 +1,97 @@
+/*=======================*/
+/*==  	-EMIRATES-     ==*/
+/*==    GRAPHIC.COM    ==*/
+/*=======================*/
+
+
+/*--------------------*/
+/*		  Fonts       */
+/*--------------------*/
+
+
+@font-face {
+  font-family: 'Montserrat-light';
+  src: url('../../fonts/Montserrat-Light.otf');
+ }
+
+
+
+/*--------------------*/
+/*		  Rules       */
+/*--------------------*/
+
+
+input:focus {
+	outline: none !important;
+}
+input:active {
+	outline: none !important;
+}
+textarea:focus {
+	outline: none !important;
+}
+textarea:active {
+	outline: none !important;
+}
+
+/*--------------------*/
+/*		  Main        */
+/*--------------------*/
+
+.about-wrapper {
+	padding: 40px 30px !important;
+	font-family: 'Montserrat-light';
+}
+.about_page_content p {
+	margin-top: 15px;
+	color: #b3b3b3;
+}
+ .about_page_content input {
+ 	width: 100%;
+ 	padding: 10px;
+ 	margin-bottom: : 5px;
+ 	border-radius: 4px;
+ 	border: solid 1px #b3b3b3;
+ }
+ .about_page_content textarea {
+ 	width: 100%;
+ 	padding: 10px;
+ 	margin-bottom: : 5px;
+ 	resize: vertical;
+ 	border-radius: 4px;
+ 	border: solid 1px #b3b3b3;
+ }
+
+
+/*
+** Add testimonials on About Page
+*/
+.about_input_input {
+	padding-left: 0px;
+}
+
+.about_input_btn {
+	margin-bottom: 20px;
+	padding-right: 0px;
+}
+ .about_input_btn label{
+ 	color: white;
+ 	background-color: #b3b3b3;
+ 	transition: ease-in-out all 0.2s;
+ 	width: 100%;
+ 	padding: 10px;
+ }
+
+/*
+** Location + Social Media 
+*/
+
+.location_social_media i {
+	font-size: 40px;
+	color: #b3b3b3;
+	padding-right: 10px; 
+	transition: ease-in-out 0.3s all;
+}
+.location_social_media i:hover {
+	color: #807d7d;
+}

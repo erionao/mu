@@ -1,0 +1,53 @@
+.profile_gallery {
+	padding: 10% 0px 3%;
+	background-image: url(../img/background/backg_5-01.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	/*text-align: center;*/
+}
+.gallery_user_section {
+	/*background: white !important;*/
+}
+.slider-for img {
+	width: 100% !important;
+}
+
+.slider-nav img {
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.details_informations_section_user {
+	/*background: #FFB900;*/
+	color: white;
+	padding: 2% 4% 4%;
+}
+.details_informations_section_user h1 {
+	font-family: 'Montserrat-Bold';
+}
+.details_informations_section_user h4 {
+	float: right;
+	margin-top: 12%;
+}
+.details_informations_section_user h3 {
+	font-family: 'Montserrat-Light';
+}
+.details_table_user {
+	width: 100%;
+	padding: 2% 0px;
+}
+
+.details_table_user tr {
+	border-bottom: 1px solid #fff;
+	height: 35px;
+	margin: 10px 0px 0px;
+}
+.details_table_user tr h5 {
+	font-family: 'Montserrat-Light';
+}
+.details_table_user tr p {
+	padding-top: 6px;
+}

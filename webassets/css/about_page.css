@@ -1,0 +1,67 @@
+.about_cover_section {
+	background-image: url('../img/background/backg_7-01.png');
+	padding: 16% 10px 10%; 
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+
+.section_two_about_p {
+	padding: 6% 10px;
+	text-align: center;
+}
+
+.section_two_about_p img {
+	width: 350px;
+}
+
+.section_two_about_p p {
+	padding: 25px 10px;
+	font-size: 18px;
+}
+
+.forth_section_about_p {
+	background-image: url('../img/background/backg_3-01.png');
+	padding: 4% 10px 4%; 
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+
+.forth_section_about_p img {
+	width: 100%;
+}
+
+.forth_section_about_p .logo_section_b {
+	width: 45%;
+	margin-bottom: 10px;
+}
+
+.managment_section_about_p {
+	background-image: url('../img/background/backg_8-01.png');
+	padding: 5% 10px 5%; 
+	background-position: center;
+	background-size: cover;
+	color: white;
+}
+
+.managment_section_about_p h1 {
+	font-family: 'Montserrat-Bold';
+	margin-bottom: 20px;
+	font-size: 35px;
+}
+
+.managment_section_about_p h2 {
+	font-family: 'Montserrat-Light';
+	margin-bottom: 0px;
+}
+
+.managment_section_about_p .col-md-8 {
+	padding-top: 1%;
+}
+
+.managment_section_about_p p {
+	font-size: 14px;
+}

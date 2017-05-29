@@ -1,0 +1,64 @@
+.button_colored {
+	border: transparent solid 2px;
+	color: white;
+	background-color: #F7941D;
+	height: 40px;
+	border-radius: 6px;
+	width: 160px;
+	font-family: 'Montserrat-Bold';
+	margin: 10px 5px;
+}
+
+.button_colored_dark {
+	border: transparent solid 2px;
+	color: white;
+	background-color: #5D6A84;
+	height: 40px;
+	border-radius: 6px;
+	width: 160px;
+	font-family: 'Montserrat-Bold';
+	margin: 10px 5px;
+}
+
+.button_transparent {
+	border: white solid 2px;
+	color: white;
+	background-color: transparent;
+	height: 40px;
+	border-radius: 6px;
+	width: 160px;
+	font-family: 'Montserrat-Bold';
+	margin: 10px 5px;
+}
+
+
+.upload_image_sm_btn {
+	width: 45%;
+	margin-top: 10px;
+	background-color: #F1F2F2;
+	border: #5D6A84;
+	color: #5D6A84;
+	border-radius: 6px;
+	height: 40px;
+	text-align: left;
+	padding: 10px 20px;
+	font-family: 'Montserrat-Bold';
+}
+.upload_image_section h1 {
+	text-align: left;
+}
+.upload_image_sm_btn i {
+	float: right;
+	padding-top: 4px;
+}
+
+.submit_all_uploaded_images {
+	width: 92%;
+	margin-top: 10px;
+	background-color: #FFB900;
+	color: white;
+	font-family: 'Montserrat-Bold';
+	border-radius: 6px;
+	height: 40px;
+	border: none;
+}

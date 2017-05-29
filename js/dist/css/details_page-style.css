@@ -1,0 +1,47 @@
+.details_page_section {
+	padding: 40px 30px !important;
+}
+
+.title_details_page input {
+	width: 100%;
+	padding: 5px 10px; 
+}
+
+
+.title_details_page label {
+	display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.title_details_page .cke_1 {
+	width: 100%;
+}
+
+.add_images_section_details h5 {
+	font-weight: 700;
+}
+.add_images_section_details img {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.edit_content_btn {
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 120px;
+    transition: ease-in-out all 0.2s;
+    font-weight: bolder;
+}
+.cancel_content_btn {
+    height: 30px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    width: 120px;
+    transition: ease-in-out all 0.2s;
+    font-weight: bolder;
+}
